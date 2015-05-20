@@ -1,5 +1,4 @@
 #!/bin/bash
-#https://subversion.assembla.com/svn/notepad_project/
 temp_dir=$(pwd)/temp
 temp_dir2=temp_dir/$(basename $1)_temp
 svn_dir=$temp_dir/$(basename $1)
